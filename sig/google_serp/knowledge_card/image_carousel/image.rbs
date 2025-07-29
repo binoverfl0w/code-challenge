@@ -1,0 +1,12 @@
+module GoogleSerp
+  module KnowledgeCard
+    class ImageCarousel
+      class Image
+        attr_reader name: String
+        attr_reader extensions: Array[String]
+        attr_reader link: String
+        attr_reader image: String
+      end
+    end
+  end
+end

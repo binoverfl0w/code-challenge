@@ -1,0 +1,5 @@
+module GoogleSerp
+  VERSION: String
+
+  def parse: (String) -> KnowledgeCard::ImageCarousel
+end

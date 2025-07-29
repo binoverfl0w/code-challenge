@@ -1,0 +1,7 @@
+module GoogleSerp
+  module KnowledgeCard
+    class ImageCarousel
+      attr_reader images: Array[Image]
+    end
+  end
+end

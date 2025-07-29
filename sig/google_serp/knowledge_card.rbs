@@ -1,0 +1,9 @@
+module GoogleSerp
+  module KnowledgeCard
+    def build_image_carousel: (Nokogiri::XML::Node) -> ImageCarousel
+
+    def build_image: (Nokogiri::XML::Node, Nokogiri::XML::NodeSet) -> ImageCarousel::Image
+
+    def resolve_image_src_from_script: (Nokogiri::XML::Node, Nokogiri::XML::NodeSet) -> String?
+  end
+end
