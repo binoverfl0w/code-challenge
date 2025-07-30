@@ -2,8 +2,8 @@
 
 RSpec.describe GoogleSerp do
   before :all do
-    @data = GoogleSerp.parse('files/van-gogh-paintings.html').images
-    @expected_data = JSON.parse(File.read('files/expected-array.json'))['artworks']
+    @data = GoogleSerp.parse('files/extra_results/leo_di_caprio_movies.html').images
+    @expected_data = JSON.parse(File.read('files/extra_results/leo_di_caprio_movies_expected_array.json'))
   end
 
   it 'output matches' do
